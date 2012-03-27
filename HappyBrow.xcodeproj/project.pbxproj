@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF7935B2152160D10088229B /* README in Resources */ = {isa = PBXBuildFile; fileRef = FF7935B1152160D10088229B /* README */; };
 		FFF32BD515213EE100BD1AD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF32BD415213EE100BD1AD0 /* UIKit.framework */; };
 		FFF32BD715213EE100BD1AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF32BD615213EE100BD1AD0 /* Foundation.framework */; };
 		FFF32BD915213EE100BD1AD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF32BD815213EE100BD1AD0 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF7935B1152160D10088229B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		FFF32BD015213EE100BD1AD0 /* HappyBrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF32BD415213EE100BD1AD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFF32BD615213EE100BD1AD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 		FFF32BDB15213EE100BD1AD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF7935B1152160D10088229B /* README */,
 				FFF32BE315213EE100BD1AD0 /* HappyBrowAppDelegate.h */,
 				FFF32BE415213EE100BD1AD0 /* HappyBrowAppDelegate.m */,
 				FFF32BDC15213EE100BD1AD0 /* HappyBrow-Info.plist */,
@@ -157,6 +160,7 @@
 			files = (
 				FFF32BDF15213EE100BD1AD0 /* InfoPlist.strings in Resources */,
 				FFF32BE815213EE100BD1AD0 /* MainStoryboard.storyboard in Resources */,
+				FF7935B2152160D10088229B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				FFF32BF015213EE100BD1AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
