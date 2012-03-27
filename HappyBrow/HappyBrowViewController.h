@@ -10,4 +10,6 @@
 
 @interface HappyBrowViewController : UIViewController
 
+@property (nonatomic) int happiness;
+    
 @end

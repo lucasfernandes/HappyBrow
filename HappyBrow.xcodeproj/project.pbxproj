@@ -15,6 +15,7 @@
 		FFF32BE515213EE100BD1AD0 /* HappyBrowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF32BE415213EE100BD1AD0 /* HappyBrowAppDelegate.m */; };
 		FFF32BE815213EE100BD1AD0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF32BE615213EE100BD1AD0 /* MainStoryboard.storyboard */; };
 		FFF32BEB15213EE100BD1AD0 /* HappyBrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF32BEA15213EE100BD1AD0 /* HappyBrowViewController.m */; };
+		FFF32BF315213F1100BD1AD0 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF32BF215213F1100BD1AD0 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		FFF32BD415213EE100BD1AD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFF32BD615213EE100BD1AD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFF32BD815213EE100BD1AD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FFF32BDC15213EE100BD1AD0 /* HappyBrow-Info.plist */ = {isa = PBXFileReference; path = "HappyBrow-Info.plist"; sourceTree = "<group>"; };
+		FFF32BDC15213EE100BD1AD0 /* HappyBrow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyBrow-Info.plist"; sourceTree = "<group>"; };
 		FFF32BDE15213EE100BD1AD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFF32BE015213EE100BD1AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FFF32BE215213EE100BD1AD0 /* HappyBrow-Prefix.pch */ = {isa = PBXFileReference; path = "HappyBrow-Prefix.pch"; sourceTree = "<group>"; };
-		FFF32BE315213EE100BD1AD0 /* HappyBrowAppDelegate.h */ = {isa = PBXFileReference; path = HappyBrowAppDelegate.h; sourceTree = "<group>"; };
+		FFF32BE215213EE100BD1AD0 /* HappyBrow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyBrow-Prefix.pch"; sourceTree = "<group>"; };
+		FFF32BE315213EE100BD1AD0 /* HappyBrowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyBrowAppDelegate.h; sourceTree = "<group>"; };
 		FFF32BE415213EE100BD1AD0 /* HappyBrowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyBrowAppDelegate.m; sourceTree = "<group>"; };
 		FFF32BE715213EE100BD1AD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FFF32BE915213EE100BD1AD0 /* HappyBrowViewController.h */ = {isa = PBXFileReference; path = HappyBrowViewController.h; sourceTree = "<group>"; };
+		FFF32BE915213EE100BD1AD0 /* HappyBrowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyBrowViewController.h; sourceTree = "<group>"; };
 		FFF32BEA15213EE100BD1AD0 /* HappyBrowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyBrowViewController.m; sourceTree = "<group>"; };
+		FFF32BF115213F1100BD1AD0 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		FFF32BF215213F1100BD1AD0 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +80,11 @@
 		FFF32BDA15213EE100BD1AD0 /* HappyBrow */ = {
 			isa = PBXGroup;
 			children = (
-				FFF32BE315213EE100BD1AD0 /* HappyBrowAppDelegate.h */,
-				FFF32BE415213EE100BD1AD0 /* HappyBrowAppDelegate.m */,
 				FFF32BE615213EE100BD1AD0 /* MainStoryboard.storyboard */,
 				FFF32BE915213EE100BD1AD0 /* HappyBrowViewController.h */,
 				FFF32BEA15213EE100BD1AD0 /* HappyBrowViewController.m */,
+				FFF32BF115213F1100BD1AD0 /* FaceView.h */,
+				FFF32BF215213F1100BD1AD0 /* FaceView.m */,
 				FFF32BDB15213EE100BD1AD0 /* Supporting Files */,
 			);
 			path = HappyBrow;
@@ -90,6 +93,8 @@
 		FFF32BDB15213EE100BD1AD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFF32BE315213EE100BD1AD0 /* HappyBrowAppDelegate.h */,
+				FFF32BE415213EE100BD1AD0 /* HappyBrowAppDelegate.m */,
 				FFF32BDC15213EE100BD1AD0 /* HappyBrow-Info.plist */,
 				FFF32BDD15213EE100BD1AD0 /* InfoPlist.strings */,
 				FFF32BE015213EE100BD1AD0 /* main.m */,
@@ -165,6 +170,7 @@
 				FFF32BE115213EE100BD1AD0 /* main.m in Sources */,
 				FFF32BE515213EE100BD1AD0 /* HappyBrowAppDelegate.m in Sources */,
 				FFF32BEB15213EE100BD1AD0 /* HappyBrowViewController.m in Sources */,
+				FFF32BF315213F1100BD1AD0 /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

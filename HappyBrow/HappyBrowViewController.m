@@ -7,28 +7,31 @@
 //
 
 #import "HappyBrowViewController.h"
+#import "FaceView.h"
 
 @interface HappyBrowViewController ()
-
+@property (nonatomic, weak) IBOutlet FaceView *faceView;
 @end
 
 @implementation HappyBrowViewController
+@synthesize faceView = _faceView;
+@synthesize happiness = _happiness;
 
-- (void)viewDidLoad
+- (void)setHappiness:(int)happiness
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _happiness = happiness;
+    [self.faceView setNeedsDisplay];
 }
 
-- (void)viewDidUnload
+- (void)setFaceView:(FaceView *)faceView
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+    _faceView = faceView;
+    [self.faceView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.faceView action:@selector(pinch:)]];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return YES;
 }
 
 @end

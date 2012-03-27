@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FaceView : UIView
-
+@property (nonatomic) int touchesCount;
+@property (nonatomic) CGFloat scale;
+- (void)pinch:(UIPinchGestureRecognizer *)gesture;
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
 @end
