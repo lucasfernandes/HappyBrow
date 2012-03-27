@@ -42,13 +42,9 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    if (self.scale != DEFAULT_SCALE) {
-        self.touchesCount += 1;
-    }
-    
-    if (self.touchesCount >= 2) {
+    UITouch *touch = [touches anyObject];
+    if ([touch tapCount] > 1 ) {
         self.scale = DEFAULT_SCALE;
-        self.touchesCount = 0;
     }
 }
 
